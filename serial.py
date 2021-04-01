@@ -30,6 +30,7 @@ class SerialGenerator:
     def generate(self): 
         """Returns next serial number"""
         self.next += 1
+        return self.next - 1 
         
 
     def reset(self):
